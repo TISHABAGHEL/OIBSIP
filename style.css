@@ -1,0 +1,409 @@
+*{
+    margin :0;
+    padding:0;
+    color:white;
+    
+
+}
+body{
+    background-color:#284b63;
+    
+}
+.logo{
+    margin:30px 0px 0px 45px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 4rem;
+    align-items:center;
+    filter: drop-shadow( 10px 10px 20px black);
+ 
+    
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar a{
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    font-weight: 100;
+    font-size: 1rem;
+    margin:6px;
+    margin-right: 45px;
+    margin-top: 30px;
+
+}
+.navbar a:hover{
+    color: bisque;
+    cursor:pointer;
+}
+.home{
+    margin: 90px 0px 0px 200px;
+    padding-top:70px;
+    align-items:center;
+    justify-content:center;
+    background-image: url("349883 (1).webp");
+    background-size: cover;
+    background-repeat:no-repeat;
+    height: 500px;
+    width:700px;
+    margin-right:300px;
+    margin-bottom:400px; 
+    filter: drop-shadow( 10px 10px 20px black);
+
+    
+
+    
+
+}
+.home-content{
+    gap:0px;
+   
+}
+.home-content h3{
+    font-weight:200;
+
+}
+.home-content h1{
+    max-width: 200px;
+    font-weight:300;
+    
+}
+.home-content span{
+    color: rgb(9, 8, 9);
+    font-weight:700;
+}
+.About{
+    padding-bottom:100px;
+
+}
+.about-me{
+    margin-bottom:100px;
+    margin-top:40px;
+    align-items:center;
+    text-align:center;
+}
+.about-me a{
+    text-decoration: none;
+    font-weight:500;
+    font-size: 4rem;
+    color: darkkhaki;
+}
+.About{
+    animation: pluse 2s infinite;}
+    @keyframes pluse{
+        0%,100%{transform:scale(1);}
+       100%{transform:scale(1.2);}
+
+    }
+
+ .third{
+        animation: pluse 2s infinite;}
+        @keyframes pluse{
+            0%,100%{transform:scale(1);}
+           100%{transform:scale(1.2);}
+    
+        }
+ .skills-content h1{
+    text-align: center;
+    font-weight:200;
+    font-size: 2rem;
+    color: darkkhaki;
+ 
+       }
+.third{
+    margin-top:3rem;
+    justify-content: center;
+    text-align: center;
+}
+.third a{
+    color: darkkhaki;
+    font-weight: 300px;
+    font-size: 4rem;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    column-gap: 2px;
+
+}
+.skills-content p{
+    font-size: 1rem;
+    
+}
+.fourth a{
+    color: darkkhaki;
+    font-weight: 300px;
+    font-size: 4rem;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    column-gap: 2px;
+
+}
+.fourth{
+    margin-top:400px;
+    justify-content:center;
+    text-align:center;
+}
+
+.box1{
+    background-image: url("bandicam 2023-11-27 15-33-34-308.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 270px;
+    width:500px;
+    margin-left: 400px;
+    margin-right:10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 20px black;  
+}
+.fourth{
+    animation: pluse 2s infinite;}
+    @keyframes pluse{
+        0%,100%{transform:scale(1);}
+       100%{transform:scale(1.2);}
+
+    }
+.box2{
+    background-image: url("bandicam 2023-12-13 18-26-58-933.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 270px;
+    width:400px;
+    margin-left:400px;
+    margin-right: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius:5px;  
+    filter: drop-shadow( 10px 10px 20px black);
+}
+.box3{
+    background-image: url("bandicam 2023-11-25 13-08-27-062.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 270px;
+    width:500px;
+    margin-left: 400px;
+    margin-right: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;  
+    filter: drop-shadow( 10px 10px 20px black);
+
+}
+.box4{
+    background-image: url("bandicam 2023-12-16 20-00-17-553.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 270px;
+    width:400px;
+    margin-left: 400px;
+    margin-right: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;  
+    filter: drop-shadow( 10px 10px 20px black);
+}
+.box5{
+    background-image: url("bandicam 2023-11-26 11-29-00-659.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 270px;
+    width:400px;
+    margin-left: 400px;
+    margin-right: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;  
+    filter: drop-shadow( 10px 10px 20px black);
+}
+.work{
+    text-align: center;
+    margin-top: 400px;
+    font-weight:300;
+    font-size:4rem;
+    color: darkkhaki;
+    margin-bottom: 80px;
+
+}
+.logo-first{
+   background-image: url("oasis.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 270px;
+   width:400px;
+   margin-left: 400px;
+   margin-right: 10px;
+   margin-top: 15px;
+   margin-bottom: 15px;
+   border-radius: 5px;  
+   filter: drop-shadow( 10px 10px 20px black);
+
+}
+.about-oasis{
+    text-align:center;
+    font-size: 1.5rem;
+    margin-top: 80px;
+    margin-left: 90px;
+}
+
+.logo-second{
+    background-image: url("codsoft.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 270px;
+    width:600px;
+    margin-left: 400px;
+    margin-right: 10px;
+    margin-top: 70px;
+    margin-bottom: 15px;
+    border-radius: 5px;  
+    filter: drop-shadow( 10px 10px 20px black);
+
+ 
+ }
+ .about-codsoft{
+     text-align:center;
+     font-size: 1.5rem;
+     margin-top: 80px;
+     margin-left: 90px;
+ }
+ .logo-third{
+    background-image: url("Indias-best-startup-internships-internshala.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 270px;
+    width:500px;
+    margin-left: 400px;
+    margin-right: 10px;
+    margin-top: 70px;
+    margin-bottom: 15px;
+    border-radius: 5px;  
+    filter: drop-shadow( 10px 10px 20px black);
+ 
+ }
+ .about-internshala{
+     text-align:center;
+     font-size: 1.5rem;
+     margin-top:80px;
+     margin-left:90px;
+ }
+ 
+ .logo-fourth{
+    background-image: url("logoNoBg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:70px;
+    width:300px;
+    margin-left: 400px;
+    margin-right: 10px;
+    margin-top: 70px;
+    margin-bottom: 15px;
+    border-radius: 5px;  
+    filter: drop-shadow( 10px 10px 20px black);
+
+ 
+ }
+ .about-bharat{
+     text-align:center;
+     font-size: 1.5rem;
+     margin-top:80px;
+     margin-left:90px;
+ }
+ .footer div{
+    align-items:center;
+    text-align: center;
+    margin-left: 300px;
+    margin-top: 60px;
+    
+
+ }
+ .id{
+    font-size: 2rem;
+    color: black;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    text-align:center;
+    border-radius: 12px;
+ }
+ .pass{
+    font-size: 2rem;
+    color: black;
+    margin-bottom: 30px;
+    margin-top:20px;
+    text-align:center;
+    border-radius: 12px;
+ }
+ 
+ .feed{
+    font-size: 2rem;
+    color: black;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-align:center;
+    border-radius: 12px;
+    height:200px;
+ }
+ .footer .id:hover{
+    color: black;
+    background-color: rgb(166, 218, 232);
+    
+ }
+ .footer .pass:hover{
+    color: black;
+    background-color: rgb(166, 218, 232);
+    
+ }
+ .footer .feed:hover{
+    color: black;
+    background-color: rgb(166, 218, 232);
+    
+ }
+ .contact {
+    background-color:#272635;
+    height: 100px;
+    text-align:center;
+    padding-top:90px;
+
+ }
+ .contact a{
+  align-items: center;
+  min-height:40px;
+  width:40px;
+  display: inline-flex;
+  justify-content: center;
+  text-decoration: none;
+  border-radius: 50%;
+  font-size: 20px;
+border:2px solid #0ef;
+margin:6px;
+box-shadow: 10px 10px 20px black;
+
+
+ }
+ .one{
+    animation: pluse 2s infinite;}
+    @keyframes pluse{
+        0%,100%{transform:scale(1);}
+       50%{transform:scale(1.2);}
+
+    }
+ .two{
+        animation: pluse 2s infinite;}
+        @keyframes pluse{
+            0%,100%{transform:scale(1);}
+           50%{transform:scale(1.2);}
+    
+        }
+.four{
+      animation: pluse 2s infinite;}
+     @keyframes pluse{
+         0%,100%{transform:scale(1);}
+          50%{transform:scale(1.2);}
+        
+            }
+ 
